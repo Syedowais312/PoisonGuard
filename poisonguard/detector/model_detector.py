@@ -1,3 +1,6 @@
+from poisonguard.detector.isolation_forest_detector import IsolationForestDetector
+
+
 class DefaultModelPredictor:
 
     def predict(self, title: str, content: str) -> dict:
@@ -27,9 +30,12 @@ class DefaultModelPredictor:
 
 class ModelDetector:
 
-    def __init__(self):
+    def __init__(self, use_isolation_forest: bool = True):
 
-        self.predictor = DefaultModelPredictor()
+        if use_isolation_forest:
+            self.predictor = IsolationForestDetector()
+        else:
+            self.predictor = DefaultModelPredictor()
 
     def predict(self, title: str, content: str) -> dict:
 

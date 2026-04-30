@@ -1,2 +1,5 @@
 from poisonguard.detector.model_detector import ModelDetector
 from poisonguard.detector.pipeline import DetectionPipeline
+from poisonguard.detector.isolation_forest_detector import IsolationForestDetector
+from poisonguard.detector.cosine_detector import CosineDetector
+from poisonguard.detector.risk_scorer import RiskScorer

@@ -1,3 +1,6 @@
 fastapi
 requests
 uvicorn
+sentence-transformers
+scikit-learn
+joblib

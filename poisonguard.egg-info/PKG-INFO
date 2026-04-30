@@ -6,6 +6,9 @@ Author: Your Team
 Requires-Dist: fastapi
 Requires-Dist: requests
 Requires-Dist: uvicorn
+Requires-Dist: sentence-transformers
+Requires-Dist: scikit-learn
+Requires-Dist: joblib
 Dynamic: author
 Dynamic: requires-dist
 Dynamic: summary

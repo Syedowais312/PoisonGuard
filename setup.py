@@ -10,7 +10,10 @@ setup(
     install_requires=[
         "fastapi",
         "requests",
-        "uvicorn"
+        "uvicorn",
+        "sentence-transformers",
+        "scikit-learn",
+        "joblib"
     ],
 
     author="Your Team",
