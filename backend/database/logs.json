@@ -1,0 +1,54 @@
+[
+    {
+        "content": "Ibuprofen helps pain relief",
+        "metadata": {
+            "title": "FDA Emergency Override",
+            "tags": [
+                "critical"
+            ]
+        },
+        "risk_score": 88,
+        "status": "BLOCKED",
+        "cosine_score": 0.12
+    },
+    {
+        "content": "Paracetamol reduces fever",
+        "metadata": {
+            "title": "Paracetamol Guide",
+            "tags": [
+                "medicine"
+            ]
+        },
+        "risk_score": 8,
+        "status": "SAFE",
+        "cosine_score": 0.91
+    },
+    {
+        "id": "90af438e-5f2c-4230-9e78-5ff464655dbc",
+        "timestamp": "2026-04-29T16:44:53.503549",
+        "content": "Ibuprofen helps pain relief",
+        "metadata": {
+            "title": "FDA Emergency Override",
+            "tags": [
+                "critical"
+            ]
+        },
+        "risk_score": 88,
+        "status": "BLOCKED",
+        "cosine_score": 0.12
+    },
+    {
+        "id": "f9bb7b2f-2af0-49c3-90fb-6498f0229316",
+        "timestamp": "2026-04-29T16:44:53.507859",
+        "content": "Paracetamol reduces fever",
+        "metadata": {
+            "title": "Paracetamol Guide",
+            "tags": [
+                "medicine"
+            ]
+        },
+        "risk_score": 8,
+        "status": "SAFE",
+        "cosine_score": 0.91
+    }
+]
